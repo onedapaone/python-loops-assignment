@@ -25,8 +25,8 @@ print(f"Range: {test_scores.ptp()}")
 #Task 3: Performance Comparison
 import time
 
-arr = np.arange(1,500001, dtype=np.int64)
-list = list(range(1,500001))
+arr = np.arange(1,50001, dtype=np.int64)
+list = list(range(1,50001))
 
 start_time = time.time()
 np_sum = np.sum(arr)
